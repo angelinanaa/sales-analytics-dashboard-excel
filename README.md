@@ -4,30 +4,28 @@ An interactive **sales analytics dashboard developed in Microsoft Excel** to exp
 
 ## 🔎 About the Project
 
-This project focuses on turning raw transaction data into a visual analytical dashboard that makes sales performance easier to understand.
+This project focuses on transforming raw transaction data into an interactive dashboard that makes sales performance easier to analyze and understand.
 
-Instead of relying on static tables, the dashboard allows users to interact with the data through multiple slicers and instantly see how the selected criteria affect key performance indicators and visualizations.
+The dashboard combines **PivotTables, PivotCharts, Slicers, KPI Cards, and Excel formulas** to allow users to explore the data dynamically.
 
 The analysis covers **sales, quantity, profit, profit margin, products, categories, customer segments, regions, states, and time-based trends**.
 
-## 📊 What Does the Dashboard Show?
+## 📊 Dashboard Overview
 
-The dashboard summarizes several aspects of sales performance:
+The dashboard provides an overview of key sales metrics and performance indicators, including:
 
-* **Total Sales** — overall revenue generated
+* **Total Sales** — overall sales generated
 * **Total Quantity** — total units sold
 * **Total Profit** — overall profit generated
 * **Profit Margin** — profitability relative to sales
-* **Regional Performance** — sales contribution by region
+* **Regional Performance** — sales contribution across regions
 * **Category Performance** — comparison across product categories
-* **Product Performance** — identification of higher-performing products
-* **Sales Trends** — changes in sales and profit margin over time
+* **Product Performance** — analysis of product-level performance
+* **Sales Trends** — changes in sales and profitability over time
 
-## 🎛️ Explore the Data
+## 🎛️ Interactive Analysis
 
-One of the main focuses of this dashboard is interactivity.
-
-Users can filter the analysis using:
+The dashboard is designed to be explored interactively using multiple slicers:
 
 * **Year**
 * **Month**
@@ -36,13 +34,13 @@ Users can filter the analysis using:
 * **Region**
 * **State**
 
-Multiple filters can be applied simultaneously. For example, users can select a specific **year + customer segment + region** to investigate a particular portion of the sales data.
+Multiple filters can be combined to investigate specific areas of the dataset. For example, users can select a particular **year, customer segment, and region** to analyze a more focused group of transactions.
 
-The KPI cards and dashboard visualizations respond to the selected filters, making it possible to explore the dataset without manually changing the underlying calculations.
+The KPI cards, PivotTables, and visualizations update automatically based on the selected filters.
 
-## 📁 Dataset Structure
+## 📁 Dataset
 
-The dataset consists of transaction-level sales records containing the following fields:
+The dataset contains transaction-level sales records with the following fields:
 
 | Category                 | Fields                                           |
 | ------------------------ | ------------------------------------------------ |
@@ -57,7 +55,7 @@ The dataset consists of transaction-level sales records containing the following
 
 The dashboard currently shows:
 
-| Metric               |        Result |
+| Metric               |         Value |
 | -------------------- | ------------: |
 | Total Sales          | **2,297,201** |
 | Total Quantity       |    **37,873** |
@@ -65,13 +63,13 @@ The dashboard currently shows:
 | Profit Margin        |    **12.47%** |
 | Highest Sales Region |      **West** |
 
-These values are connected to the dashboard filtering system and change according to the selected analysis criteria.
+> KPI values are dynamically connected to the dashboard and update according to the selected filters.
 
 ## 🛠️ Built With
 
 **Microsoft Excel**
 
-Techniques and features used in this project include:
+Key Excel features and techniques used:
 
 * PivotTables
 * PivotCharts
@@ -81,17 +79,17 @@ Techniques and features used in this project include:
 * Dynamic KPI references
 * Data aggregation
 * Interactive filtering
-* Dashboard layout and visualization
+* Dashboard design and visualization
 
 ## 📈 Analysis Areas
 
-### Time-Based Analysis
+### Time Analysis
 
-Sales performance can be explored across different years, months, and days to identify changes in sales and profitability over time.
+Sales performance can be explored across different **years, months, and days** to identify changes and patterns in sales and profitability over time.
 
 ### Regional Analysis
 
-The dashboard provides a comparison of sales performance across:
+The dashboard allows sales performance to be compared across:
 
 * Central
 * East
@@ -102,7 +100,7 @@ State-level filtering provides a more detailed view of regional performance.
 
 ### Customer Segment Analysis
 
-Sales can be compared across the three customer segments:
+Sales performance can be compared across:
 
 * Consumer
 * Corporate
@@ -110,43 +108,47 @@ Sales can be compared across the three customer segments:
 
 ### Product & Category Analysis
 
-The dashboard can be used to investigate differences in performance between categories, sub-categories, and individual products.
+The dashboard can be used to compare performance across **categories, sub-categories, and individual products**, helping identify areas with stronger sales contributions.
 
 ## 💡 Highlights from the Analysis
 
 Based on the current dataset:
 
-* The analyzed transactions generate **2.29M in total sales**.
-* **37,873 units** are recorded across the dataset.
-* Total profit reaches **286K**, resulting in a **12.47% profit margin**.
-* The **West region** has the highest sales contribution among the regions analyzed.
-* Sales performance differs across customer segments, regions, states, and product categories.
-* The interactive filters make it easier to investigate these differences from multiple perspectives.
+* Total sales amount to approximately **2.29M**.
+* A total of **37,873 units** are recorded.
+* Total profit reaches approximately **286K**.
+* The overall profit margin is **12.47%**.
+* The **West region** records the highest sales contribution among the four regions.
+* Sales performance varies across customer segments, regions, states, and product categories.
+* The interactive filtering system makes it easier to investigate these differences from multiple perspectives.
 
-> **Note:** These observations represent patterns found in the dataset and do not imply causal relationships.
+> **Note:** These observations represent patterns identified within the dataset and should not be interpreted as causal relationships.
 
 ## 🖼️ Dashboard Preview
 
-![Sales Analytic Dashboard using Excel](Sales%20Analytic%20Dashboard%20using%20Excel.png)
+<p align="center">
+  <img src="Sales%20Analytic%20Dashboard%20using%20Excel.png" width="100%">
+</p>
 
-## 📌 Why I Built This Project
+## 📌 Project Purpose
 
-This project was created as a practical exercise in **Excel-based data analysis and dashboard development**.
+This project was developed as a practical exercise in **Excel-based data analysis and dashboard development**.
 
-The goal was not only to create charts, but to build a dashboard where raw transaction data can be explored interactively and translated into information that is easier for business users to understand.
+The goal was to go beyond creating static charts by building an interactive dashboard where users can explore sales performance through different dimensions and instantly see the impact of their selections.
 
-It demonstrates the process of working with structured sales data, summarizing it through PivotTables, creating visualizations, and connecting those components into an interactive dashboard.
+The project demonstrates the process of transforming structured transaction data into meaningful visual analysis using Excel.
 
 ## 📚 Key Takeaways
 
 Through this project, I practiced:
 
-* Structuring and analyzing transaction data
-* Building dynamic PivotTable-based analysis
-* Designing interactive dashboards in Excel
-* Creating KPI cards linked to analytical results
-* Using slicers for multidimensional analysis
-* Presenting business information through data visualization
+* Preparing and structuring transaction data
+* Performing data aggregation using PivotTables
+* Building interactive dashboards in Excel
+* Creating dynamic KPI cards
+* Connecting dashboard components with slicers
+* Developing business-focused data visualizations
+* Presenting analytical findings in a clear and accessible format
 
 ## 👩‍💻 Skills
 
