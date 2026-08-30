@@ -127,7 +127,7 @@ Based on the current dataset:
 
 ## 🖼️ Dashboard Preview
 
-![Sales Analytics Dashboard](Sales Analytic Dashboard using Excel.png)
+![Sales Analytic Dashboard using Excel](Sales%20Analytic%20Dashboard%20using%20Excel.png)
 
 ## 📌 Why I Built This Project
 
